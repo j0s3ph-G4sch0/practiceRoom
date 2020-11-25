@@ -5,6 +5,9 @@ Just a python script for something
 Make sure that the following packages are installed:
 playsound
 
+https://docs.python.org/3/installing/index.html 
+This website shows how to install packages.
+
 This package is used to play the mp3 file. The audio file that will be played MUST be and mp3 file.
 Any other file will not work and will cause the program to fail.
 
