@@ -3,7 +3,9 @@
 Just a python script for something
 
 Make sure that the following packages are installed:
-playsound
+pygame 1.9.4
+schedule
+
 
 https://docs.python.org/3/installing/index.html 
 This website shows how to install packages.
