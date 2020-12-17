@@ -17,7 +17,7 @@ def mainScript():
     mixer.init()
 
     #opening the calendar file, "calendar.txt" should be the name of the file containing the events
-    with open("/home/pi/practiceRoom/calendar.txt", "r") as doc:
+    with open("/path/to/calendar.txt", "r") as doc:
         
         #creating the arrays for the start and end time of the events
         startTime = []
@@ -145,7 +145,7 @@ def mainScript():
         print("yay ;D")
         mixer.init()
         mixer.stop()
-        mixer.music.load("/home/pi/practiceRoom/10MinWarning.mp3")
+        mixer.music.load("/path/to/10MinWarning.mp3")
         mixer.music.play()
         print(datetime.now())
         
@@ -156,7 +156,7 @@ def mainScript():
         print("yay ;D")
         mixer.init()
         mixer.stop
-        mixer.music.load("/home/pi/practiceRoom/fiveMinWarning.mp3")
+        mixer.music.load("/path/to/fiveMinWarning.mp3")
         mixer.music.play()
         print(datetime.now())
 
