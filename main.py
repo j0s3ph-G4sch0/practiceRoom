@@ -166,7 +166,7 @@ def mainScript():
         repeatVar = len(startTime)
 
 
-schedule.every().day.at("20:10").do(mainScript)
+schedule.every().day.at("01:10").do(mainScript)
 
 while True:
     schedule.run_pending()
